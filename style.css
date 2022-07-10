@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding:0%;
+   
+}
+body{
+    background-color: #f1f3f6;
+    font-family: Roboto,Arial,sans-serif;
+}
+.header{
+ width: 100%;
+ align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_hamburger{
+    margin:0 27px ;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav_hamburger div{
+    display: none;
+    background-color:rgb(255, 255, 255);
+    padding: 1px 13px 1px 13px;
+    border-radius: 20px;
+}
+
+.nav{
+    gap: 44px;
+    align-items: center;
+    width: 100%;
+    background-color: #2874f0;
+}
+.nav_dt{
+    justify-content: center;
+    gap: 60px;
+    height: 56px;
+    align-items: center;
+    width: 100%;
+    background-color: #2874f0;
+
+}
+.nav_lnb{
+    gap: 45px;
+}
+.nav_smc{
+    gap:34px;
+}
+.ndt{
+    color: #fff;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav_logo{
+    width: 75px;
+    height: 20px;
+}
+.nav_search_bar{
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    gap:9px;
+    
+}
+.nav_search_bar input{
+    border: none;
+    height: 34px;
+    width: 263px;
+}
+.nav_cart,.nav_more{
+    gap: 5px;
+}
+.nav_btn{
+    color: #2874f0;
+    width: 111px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    font-weight: 600;
+    border: 1px solid #dbdbdb;
+    font-size: 16px;
+    letter-spacing: .1px;
+}
+.nav_arrow,.nav_arrow_e{
+    transform: rotate(-90deg);
+}
+
+.nav_more:hover .nav_arrow{
+    transform: rotate(-270deg);
+    transition-duration: .5s;
+}
+.nav_elements img{
+    width: 64px;
+    height: 64px;
+}
+.nav_elements{
+    align-items: center;
+}
+.nav_tag{
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav_items_container{
+    height: 100px;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0px 2px 2px black solid ;
+}
+.nav_element_tname{
+    gap:5px;
+}
+.nav_elements:hover .nav_tag {
+    color: #2874f0;
+}
+.nav_elements:hover .nav_arrow_e svg{
+   fill: #2874f0;
+   transform: rotate(-180deg);
+   transition-duration: .5s;
+}
+.nav_items_container{
+    width: 100%;
+}
